@@ -1,0 +1,90 @@
+@import "variables";
+
+body {
+  font-size: 2em;
+  overflow-x: hidden;
+}
+
+section {
+  min-height: 5em;
+  padding: 2em;
+}
+
+form {
+  max-width: 30em;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.img-responsive {
+  width: 100%;
+}
+
+#profile-pic {
+  margin: 20px 0;
+}
+
+#home {
+  padding: 0;
+}
+
+#about-image {
+  padding: 0;
+}
+
+#intro {
+  background-color: $light-gray;
+}
+
+#about {
+  background-color: $white;
+}
+
+#highlights {
+  background-color: $light-gray;
+  .col-sm-6 {
+    padding-top: 2em;
+    padding-bottom: 2em;
+  }
+}
+
+#services {
+  background-color: $medium-gray;
+  .col-sm-4 {
+    padding-top: 2em;
+    padding-bottom: 2em;
+  }
+}
+
+.panel-header {
+  height: 5em;
+}
+
+.panel-body {
+  min-height: 9em;
+}
+
+.panel-footer {
+  height: 5em;
+}
+
+#contact {
+  background-color: $light-gray;
+}
+
+#certifications {
+  background-color: $white;
+  img {
+    margin-right: auto;
+    margin-left: auto;
+  }
+  #xypn-logo {
+    padding-top: .5em;
+  }
+}
+
+@media (max-width: 770px) {
+  #home {
+    min-height: 100px;
+  }
+}
