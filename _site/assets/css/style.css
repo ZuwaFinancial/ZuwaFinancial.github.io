@@ -108,7 +108,8 @@ footer {
   footer .left-padding {
     padding-left: 0; } }
 * {
-  font-family: Gill Sans; }
+  font-family: Gill Sans;
+  letter-spacing: .05em; }
 
 body {
   font-size: 2em;
@@ -187,19 +188,20 @@ form {
     min-height: 100px; } }
 button {
   background-color: #0159a1;
+  border: 4px solid #0159a1;
   border-radius: 5px;
   padding: 10px 15px;
   margin: 5px 0;
   color: #FFFFFF;
   font-size: 1.5em;
   font-weight: 200;
-  border: 0px;
   transition: all 0.3s ease-in-out;
   -moz-transition: all 0.3s ease-in-out;
   -webkit-transition: all 0.3s ease-in-out; }
 
 button:hover {
-  background: #111111; }
+  background: transparent;
+  color: #111111; }
 
 .input-text {
   padding: 15px 15px;
