@@ -1,17 +1,37 @@
 @import "variables";
 
 .navbar {
-  height: 140px;
+  border-bottom: 4px solid $logo-dark-blue;
 }
 
 .navbar-default {
   background-color: $white;
-}
-
-.navbar .navbar-nav {
-  display: inline-block;
-  float: none;
-  padding-top: 2.2em;
+  .navbar-header {
+    float: none;
+    padding: 0;
+    .navbar-brand {
+      float: none;
+      img {
+        display: inline-block;
+        padding-top: .8em;
+        max-height: 5em;
+        width: auto;
+        margin-right: auto;
+        margin-left: auto;
+      }
+    }
+  }
+  .navbar-nav {
+    display: inline-block;
+    float: none;
+    li {
+      color: $logo-dark-blue;
+      padding-top: .4em;
+      a {
+        color: $logo-dark-blue;
+      }
+    }
+  }
 }
 
 .navbar .navbar-collapse {
@@ -27,19 +47,6 @@
   margin-right: auto;
   margin-left: auto;
   margin-bottom: 10px;
-}
-
-#logo {
-  height: auto;
-  width: 340px;
-}
-
-.navbar-brand {
-  min-height: 120px;
-}
-
-body {
-  padding-top: 130px;
 }
 
 @media (max-width: 770px) {

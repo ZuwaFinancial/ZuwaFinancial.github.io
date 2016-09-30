@@ -1,8 +1,13 @@
 @import "variables";
 
+* {
+  font-family: Gill Sans;
+}
+
 body {
   font-size: 2em;
   overflow-x: hidden;
+  padding-top: 10%;
 }
 
 section {
@@ -25,7 +30,17 @@ form {
 }
 
 #home {
-  padding: 0;
+  min-height: 800px;
+  background-image: url('/assets/images/field-and-blue-sky.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  .section-header {
+    padding-top: 15%;
+    color: $logo-dark-blue;
+  }
+  .row {
+    padding-top: 1em;
+  }
 }
 
 #about-image {
