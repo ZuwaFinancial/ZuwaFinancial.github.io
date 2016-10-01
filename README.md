@@ -1,3 +1,3 @@
-# Financial Avisor Website Template
+# Zuwa Financial
 
-This jekyll app is a template for simple, miniminalist websites for independenct financial advisors.
+This is the source code for (Zuwa Financial Website)
