@@ -98,8 +98,10 @@ footer {
 
 body {
   font-size: 2em;
-  overflow-x: hidden;
-  padding-top: 10%; }
+  overflow-x: hidden; }
+
+.top-content {
+  padding-top: 15%; }
 
 section {
   min-height: 5em;
