@@ -176,6 +176,9 @@ form {
   #certifications #xypn-logo {
     padding-top: .5em; }
 
+.center-pills {
+  display: inline-block; }
+
 @media (max-width: 770px) {
   #home {
     min-height: 100px; }
