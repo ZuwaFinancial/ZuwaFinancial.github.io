@@ -96,21 +96,22 @@ form {
   background-color: $light-gray;
 }
 
-// ensures hash tag links accounts for fixed nav bar
-#contact:before { 
-  display: block; 
-  content: " "; 
-  margin-top: -6em;
-  height: 6em;  
-  visibility: hidden; 
-}
+// // WIP -> hash tag links accounts for fixed nav bar
 
-@media (max-width: 770px) {
-  #contact:before { 
-    margin-top: 6em;
-    height: 0em;  
-  }
-}
+// #contact:before { 
+//   display: block; 
+//   content: " "; 
+//   margin-top: -8em;
+//   padding-top: 8em;  
+//   visibility: hidden; 
+// }
+
+// @media (max-width: 770px) {
+//   #contact:before { 
+//     margin-top: 6em;
+//     padding-top: 0em;
+//   }
+// }
 
 #certifications {
   background-color: $white;

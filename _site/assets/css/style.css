@@ -174,17 +174,6 @@ form {
 #contact {
   background-color: #efefef; }
 
-#contact:before {
-  display: block;
-  content: " ";
-  margin-top: -6em;
-  height: 6em;
-  visibility: hidden; }
-
-@media (max-width: 770px) {
-  #contact:before {
-    margin-top: 6em;
-    height: 0em; } }
 #certifications {
   background-color: #FFFFFF; }
   #certifications img {
