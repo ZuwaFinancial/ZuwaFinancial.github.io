@@ -5,6 +5,11 @@
   letter-spacing: .05em;
 }
 
+// needed for sticky footer behavior
+html, body {
+  height: 100%
+}
+
 body {
   font-size: 2em;
   overflow-x: hidden;

@@ -1,5 +1,17 @@
 @import 'variables';
 
+
+#wrap-for-sticky-footer {
+  min-height: 100%;
+  height: auto;
+  margin: 0 auto -170px;
+  padding: 0 0 170px;
+}
+
+#sticky-footer {
+  height: 170px;
+}
+
 footer {
   padding-top: .5em;
   ul {
