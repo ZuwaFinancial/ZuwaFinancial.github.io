@@ -22,12 +22,12 @@ body {
 section {
   min-height: 5em;
   padding: 2em;
+  border-bottom: 3px solid $logo-dark-blue;
 }
 
-form {
-  max-width: 30em;
-  margin-left: auto;
-  margin-right: auto;
+.outlined {
+  border: 3px solid $charcoal;
+  padding: 1em;
 }
 
 .img-responsive {
@@ -44,11 +44,16 @@ form {
   background-repeat: no-repeat;
   background-size: cover;
   .section-header {
-    padding-top: 15%;
     color: $logo-dark-blue;
   }
   .row {
     padding-top: 1em;
+  }
+}
+
+@media (min-width: 840px) {
+  #home .section-header {
+    padding-top: 8em;
   }
 }
 
@@ -66,52 +71,23 @@ form {
 
 #highlights {
   background-color: $light-gray;
-  .col-sm-6 {
-    padding-top: 2em;
-    padding-bottom: 2em;
+  .col-sm-4 {
+    min-height: 16em;
+    margin-right: .1em;
+    margin-bottom: .15em;
   }
 }
 
 #services {
   background-color: $medium-gray;
-  .col-sm-4 {
-    padding-top: 2em;
-    padding-bottom: 2em;
+  .index-service {
+    min-height: 14em;
   }
-}
-
-.panel-header {
-  height: 5em;
-}
-
-.panel-body {
-  min-height: 9em;
-}
-
-.panel-footer {
-  height: 5em;
 }
 
 #contact {
   background-color: $light-gray;
 }
-
-// // WIP -> hash tag links accounts for fixed nav bar
-
-// #contact:before { 
-//   display: block; 
-//   content: " "; 
-//   margin-top: -8em;
-//   padding-top: 8em;  
-//   visibility: hidden; 
-// }
-
-// @media (max-width: 770px) {
-//   #contact:before { 
-//     margin-top: 6em;
-//     padding-top: 0em;
-//   }
-// }
 
 #certifications {
   background-color: $white;
@@ -131,5 +107,10 @@ form {
 @media (max-width: 770px) {
   #home {
     min-height: 100px;
+  }
+  #highlights {
+    .col-sm-4 {
+      min-height: 12em;
+    }
   }
 }

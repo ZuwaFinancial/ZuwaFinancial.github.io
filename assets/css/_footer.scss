@@ -13,22 +13,12 @@
 }
 
 footer {
+  margin-left: -3%;
   padding-top: .5em;
-  ul {
-    padding-left: 0;
-  }
   li {
     list-style-type: none;
     display: inline;
-    border-right: 2px solid $charcoal;
-    padding-left: .4em;
-  }
-  li:last-child {
-    border-right: none;
-    padding-left: none;
-  }
-  li:first-child {
-    padding-right: none;
+    padding: 0 .4em;
   }
   a {
     color: $logo-dark-blue;
@@ -39,6 +29,23 @@ footer {
   }
 }
 
+#site-map {
+  ul {
+    padding-left: 0;
+  }
+  li {
+    border-right: 2px solid $charcoal;
+    padding-left: .8em;
+  }
+  li:last-child {
+    border-right: none;
+    padding-left: none;
+  }
+  li:first-child {
+    padding-right: none;
+  }
+}
+
 #copyright-info {
   background-color: $black;
   width: 100%;
@@ -46,5 +53,11 @@ footer {
   margin: 0;
   p {
     color: gray;
+  }
+}
+
+@media (max-width: 770px) {
+  footer {
+    margin-left: -11%;
   }
 }

@@ -1,12 +1,11 @@
 @import "variables";
 
 button {
-  background-color: $logo-dark-blue;
-  border: 4px solid $logo-dark-blue;
-  border-radius: 5px;
-  padding: 10px 15px;
+  background-color: $yellow;
+  border: 3px solid $logo-dark-blue;
+  padding: 2% 3%;
   margin: 5px 0;
-  color: $white;
+  color: $logo-dark-blue;
   font-size: 1.5em;
   font-weight: 200;
   transition: all 0.3s ease-in-out;
@@ -15,6 +14,6 @@ button {
 }
 
 button:hover {
-  background: transparent;
-  color: $black;
+  color: $logo-dark-blue;
+  background-color: transparent;
 }
