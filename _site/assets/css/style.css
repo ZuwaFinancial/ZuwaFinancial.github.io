@@ -11,7 +11,7 @@
       .navbar-default .navbar-header .navbar-brand img {
         display: inline-block;
         padding-top: .8em;
-        max-height: 7em;
+        max-height: 6.5em;
         width: auto;
         margin-right: auto;
         margin-left: auto; }
@@ -154,10 +154,18 @@ section {
   padding: 0; }
 
 #intro {
-  background-color: #efefef; }
+  background-color: #FFFFFF; }
 
 #about {
+  background-color: #E0F1FF; }
+
+#certifications {
   background-color: #FFFFFF; }
+  #certifications img {
+    margin-right: auto;
+    margin-left: auto; }
+  #certifications #xypn-logo {
+    padding-top: .5em; }
 
 #highlights {
   background-color: #efefef; }
@@ -167,20 +175,12 @@ section {
     margin-bottom: .15em; }
 
 #services {
-  background-color: #e7e7e7; }
+  background-color: #FFFFFF; }
   #services .index-service {
     min-height: 14em; }
 
 #contact {
-  background-color: #efefef; }
-
-#certifications {
-  background-color: #FFFFFF; }
-  #certifications img {
-    margin-right: auto;
-    margin-left: auto; }
-  #certifications #xypn-logo {
-    padding-top: .5em; }
+  background-color: #E0F1FF; }
 
 .center-pills {
   display: inline-block; }

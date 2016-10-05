@@ -62,11 +62,22 @@ section {
 }
 
 #intro {
-  background-color: $light-gray;
+  background-color: $white;
 }
 
 #about {
+  background-color: $muted-blue;
+}
+
+#certifications {
   background-color: $white;
+  img {
+    margin-right: auto;
+    margin-left: auto;
+  }
+  #xypn-logo {
+    padding-top: .5em;
+  }
 }
 
 #highlights {
@@ -79,25 +90,14 @@ section {
 }
 
 #services {
-  background-color: $medium-gray;
+  background-color: $white;
   .index-service {
     min-height: 14em;
   }
 }
 
 #contact {
-  background-color: $light-gray;
-}
-
-#certifications {
-  background-color: $white;
-  img {
-    margin-right: auto;
-    margin-left: auto;
-  }
-  #xypn-logo {
-    padding-top: .5em;
-  }
+  background-color: $muted-blue;
 }
 
 .center-pills {
