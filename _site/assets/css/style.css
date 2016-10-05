@@ -124,8 +124,7 @@ body {
 
 section {
   min-height: 5em;
-  padding: 2em;
-  border-bottom: 3px solid #0159a1; }
+  padding: 2em; }
 
 .outlined {
   border: 3px solid #333333;
