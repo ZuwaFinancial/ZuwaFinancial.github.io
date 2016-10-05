@@ -1,5 +1,5 @@
 .navbar {
-  border-bottom: 3px solid #0159a1; }
+  border-bottom: 3px solid #0159A1; }
 
 .navbar-default {
   background-color: #FFFFFF; }
@@ -20,16 +20,16 @@
     float: none;
     margin-bottom: -.4em; }
     .navbar-default .navbar-nav li {
-      color: #0159a1; }
+      color: #0159A1; }
       .navbar-default .navbar-nav li a {
-        color: #0159a1; }
+        color: #0159A1; }
 
 .navbar .navbar-collapse {
   text-align: center;
   background-color: #FFFFFF; }
 
 .navbar-toggle {
-  background-color: #efefef;
+  background-color: #EFEFEF;
   padding: 10px 45%;
   display: none;
   float: none;
@@ -88,7 +88,7 @@ footer {
   footer li:first-child {
     padding-right: none; }
   footer a {
-    color: #0159a1; }
+    color: #0159A1; }
   footer a:hover {
     text-decoration: none;
     color: #333333; }
@@ -135,7 +135,7 @@ section {
   background-repeat: no-repeat;
   background-size: cover; }
   #home .section-header {
-    color: #0159a1;
+    color: #0159A1;
     margin-top: 3em; }
   #home .section-body {
     margin-top: 8em; }
@@ -161,7 +161,7 @@ section {
     padding-top: .5em; }
 
 #highlights {
-  background-color: #efefef; }
+  background-color: #EFEFEF; }
   #highlights .col-sm-4 {
     min-height: 16em;
     margin-right: .1em;
@@ -185,11 +185,12 @@ section {
   #highlights .col-sm-4 {
     min-height: 12em; } }
 button {
-  background-color: #FFE230;
-  border: 3px solid #0159a1;
+  background-color: #337AB7;
+  border: 3px solid #0159A1;
+  border-radius: 4px;
   padding: 2% 3%;
   margin: 5px 0;
-  color: #0159a1;
+  color: #FFFFFF;
   font-size: 1.5em;
   font-weight: 200;
   transition: all 0.3s ease-in-out;
@@ -197,8 +198,8 @@ button {
   -webkit-transition: all 0.3s ease-in-out; }
 
 button:hover {
-  color: #0159a1;
-  background-color: transparent; }
+  background-color: #0159A1;
+  border: 3px solid #0159A1; }
 
 .input-text {
   padding: 15px 15px;
@@ -216,7 +217,7 @@ button:hover {
   -webkit-transition: all 0.3s ease-in-out; }
 
 .input-text:focus {
-  border: 1px solid #0159a1;
+  border: 1px solid #0159A1;
   outline: 0;
   -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(1, 89, 161, 0.3);
   -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(1, 89, 161, 0.3);
