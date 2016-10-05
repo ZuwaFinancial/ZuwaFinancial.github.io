@@ -152,6 +152,8 @@ section {
 
 #about {
   background-color: #EFF8FF; }
+  #about p {
+    margin-top: 4%; }
 
 #certifications {
   background-color: #FFFFFF; }
