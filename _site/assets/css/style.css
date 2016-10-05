@@ -137,9 +137,9 @@ section {
   margin-top: -15%; }
   #home .section-header {
     color: #0159A1;
-    margin-top: 5em; }
+    margin-top: 6em; }
   #home .section-body {
-    margin-top: 8em; }
+    margin-top: 6em; }
 
 @media (min-width: 800px) {
   #home .section-header {
@@ -154,6 +154,14 @@ section {
   background-color: #EFF8FF; }
   #about p {
     margin-top: 4%; }
+
+#about-page img {
+  min-height: 150px; }
+
+#about-pictures {
+  background-color: #F2F2F2; }
+  #about-pictures img {
+    margin-top: .4em; }
 
 #certifications {
   background-color: #FFFFFF; }
