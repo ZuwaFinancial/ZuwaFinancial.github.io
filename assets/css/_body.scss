@@ -45,15 +45,16 @@ section {
   background-size: cover;
   .section-header {
     color: $logo-dark-blue;
+    margin-top: 3em;
   }
-  .row {
-    padding-top: 1em;
+  .section-body {
+    margin-top: 8em;
   }
 }
 
-@media (min-width: 840px) {
+@media (min-width: 800px) {
   #home .section-header {
-    padding-top: 8em;
+    margin-top: 10em;
   }
 }
 

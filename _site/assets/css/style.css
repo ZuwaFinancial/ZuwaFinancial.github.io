@@ -11,16 +11,16 @@
       .navbar-default .navbar-header .navbar-brand img {
         display: inline-block;
         padding-top: .8em;
-        max-height: 5em;
+        max-height: 7em;
         width: auto;
         margin-right: auto;
         margin-left: auto; }
   .navbar-default .navbar-nav {
     display: inline-block;
-    float: none; }
+    float: none;
+    margin-bottom: -.4em; }
     .navbar-default .navbar-nav li {
-      color: #0159a1;
-      padding-top: .4em; }
+      color: #0159a1; }
       .navbar-default .navbar-nav li a {
         color: #0159a1; }
 
@@ -143,13 +143,14 @@ section {
   background-repeat: no-repeat;
   background-size: cover; }
   #home .section-header {
-    color: #0159a1; }
-  #home .row {
-    padding-top: 1em; }
+    color: #0159a1;
+    margin-top: 3em; }
+  #home .section-body {
+    margin-top: 8em; }
 
-@media (min-width: 840px) {
+@media (min-width: 800px) {
   #home .section-header {
-    padding-top: 8em; } }
+    margin-top: 10em; } }
 #about-image {
   padding: 0; }
 
