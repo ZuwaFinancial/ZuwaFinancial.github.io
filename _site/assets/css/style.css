@@ -29,7 +29,7 @@
   background-color: #FFFFFF; }
 
 .navbar-toggle {
-  background-color: #EFEFEF;
+  background-color: #F2F2F2;
   padding: 10px 45%;
   display: none;
   float: none;
@@ -151,7 +151,7 @@ section {
   background-color: #FFFFFF; }
 
 #about {
-  background-color: #E0F1FF; }
+  background-color: #EFF8FF; }
 
 #certifications {
   background-color: #FFFFFF; }
@@ -162,7 +162,7 @@ section {
     padding-top: .5em; }
 
 #highlights {
-  background-color: #EFEFEF; }
+  background-color: #F2F2F2; }
   #highlights .col-sm-4 {
     min-height: 16em;
     margin-right: .1em;
@@ -174,10 +174,14 @@ section {
     min-height: 14em; }
 
 #contact {
-  background-color: #E0F1FF; }
+  background-color: #EFF8FF; }
+
+#contact-section {
+  background-color: #F2F2F2; }
 
 .secondary-page {
-  background-color: #E0F1FF; }
+  background-color: #EFF8FF;
+  margin-top: 2em; }
 
 .center-pills {
   display: inline-block; }
