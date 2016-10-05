@@ -67,35 +67,31 @@
 #wrap-for-sticky-footer {
   min-height: 100%;
   height: auto;
-  margin: 0 auto -170px;
-  padding: 0 0 170px; }
+  margin: 0 auto -120px;
+  padding: 0 0 120px; }
 
 #sticky-footer {
-  height: 170px; }
+  height: 120px; }
 
 footer {
-  margin-left: -3%;
+  margin-left: -4%;
   padding-top: .5em; }
   footer li {
     list-style-type: none;
     display: inline;
-    padding: 0 .4em; }
+    padding: 0 .3em;
+    border-right: 2px solid #333333;
+    padding-left: .6em; }
+  footer li:last-child {
+    border-right: none;
+    padding-left: none; }
+  footer li:first-child {
+    padding-right: none; }
   footer a {
     color: #0159a1; }
   footer a:hover {
     text-decoration: none;
     color: #333333; }
-
-#site-map ul {
-  padding-left: 0; }
-#site-map li {
-  border-right: 2px solid #333333;
-  padding-left: .8em; }
-#site-map li:last-child {
-  border-right: none;
-  padding-left: none; }
-#site-map li:first-child {
-  padding-right: none; }
 
 #copyright-info {
   background-color: #111111;
@@ -103,11 +99,12 @@ footer {
   padding-top: .5em;
   margin: 0; }
   #copyright-info p {
-    color: gray; }
+    color: gray;
+    font-size: .7em; }
 
 @media (max-width: 770px) {
   footer {
-    margin-left: -11%; } }
+    margin-left: -14%; } }
 * {
   font-family: Gill Sans;
   letter-spacing: .05em; }
@@ -125,10 +122,6 @@ body {
 section {
   min-height: 5em;
   padding: 2em; }
-
-.outlined {
-  border: 3px solid #333333;
-  padding: 1em; }
 
 .img-responsive {
   width: 100%; }
@@ -209,9 +202,11 @@ button:hover {
 
 .input-text {
   padding: 15px 15px;
+  border: 1px solid #ccc;
   width: 100%;
   height: 50px;
   display: block;
+  border-radius: 4px;
   font-size: 15px;
   color: #aaa;
   font-family: sans-serif;
