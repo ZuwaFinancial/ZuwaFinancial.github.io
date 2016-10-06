@@ -182,6 +182,21 @@ section {
 #contact-section {
   background-color: #F2F2F2; }
 
+#contact-right-col {
+  margin-top: 3.5em; }
+
+#map-embed {
+  position: relative;
+  padding-bottom: 75%;
+  height: 0;
+  overflow: hidden; }
+  #map-embed iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100% !important;
+    height: 100% !important; }
+
 .secondary-page {
   background-color: #EFF8FF;
   margin-top: 2em; }
