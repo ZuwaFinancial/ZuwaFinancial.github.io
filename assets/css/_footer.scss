@@ -12,10 +12,7 @@
   height: 120px;
 }
 
-i {
-  height: 23px;
-  width: 23px;
-}
+
 
 footer {
   background-color: $light-blue;
@@ -33,6 +30,10 @@ footer {
   a:hover {
     text-decoration: none;
     color: $charcoal;
+  }
+  i {
+    height: 23px;
+    width: 23px;
   }
 }
 

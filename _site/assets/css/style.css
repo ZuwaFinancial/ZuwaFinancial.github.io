@@ -76,10 +76,6 @@
 #sticky-footer {
   height: 120px; }
 
-i {
-  height: 23px;
-  width: 23px; }
-
 footer {
   background-color: #E8F0F6;
   padding-top: .5em; }
@@ -93,6 +89,9 @@ footer {
   footer a:hover {
     text-decoration: none;
     color: #333333; }
+  footer i {
+    height: 23px;
+    width: 23px; }
 
 #copyright-info {
   background-color: #111111;
