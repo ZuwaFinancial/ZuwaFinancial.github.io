@@ -104,7 +104,10 @@ section {
 }
 
 .nav-pills {
-  margin-top: 2em;
+  margin-top: 1em;
+  li {
+    padding: 0 .6em;
+  }
 }
 
 .service-description {
@@ -125,6 +128,17 @@ section {
   .section-header {
     color: $logo-dark-blue;
     margin-top: 4em;
+  }
+}
+
+#services-bottom {
+  .service-description {
+    h3 {
+      padding-top: 0em
+    }
+    p {
+      min-height: 10em;
+    }
   }
 }
 
@@ -195,7 +209,7 @@ section {
         padding-top: 0em
       }
       p {
-        min-height: 14em;
+        min-height: 20em;
         padding-top: 10%;
         padding-bottom: 10%;
       }
