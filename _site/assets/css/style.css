@@ -175,8 +175,15 @@ section {
 
 #services {
   background-color: #F4F4F4; }
-  #services .index-service {
-    min-height: 11em; }
+
+.nav-pills {
+  margin-top: 2em; }
+
+.service-description h3 {
+  padding-top: 0.5em; }
+.service-description p {
+  min-height: 6.5em;
+  padding-top: 1em; }
 
 #services-top {
   min-height: 30em;
@@ -186,9 +193,6 @@ section {
   #services-top .section-header {
     color: #0159A1;
     margin-top: 4em; }
-
-#services-bottom p, #services-bottom ul {
-  margin-top: 1em; }
 
 #contact-section {
   background-color: #F4F4F4; }
@@ -227,6 +231,19 @@ section {
 
   #cfp-logo {
     margin-bottom: 1em; }
+
+  .service-description h3 {
+    padding-top: 0em; }
+  .service-description p {
+    min-height: 7.5em;
+    padding-top: .5em; }
+
+  #services-bottom .service-description h3 {
+    padding-top: 0em; }
+  #services-bottom .service-description p {
+    min-height: 14em;
+    padding-top: 10%;
+    padding-bottom: 10%; }
 
   .secondary-page {
     margin-top: 0; } }
