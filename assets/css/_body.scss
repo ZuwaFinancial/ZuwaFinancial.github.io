@@ -147,7 +147,9 @@ section {
 }
 
 #contact-right-col {
-  margin-top: 3.5em;
+  #map-header {
+    margin-top: 1.5em;
+  }
 }
 
 #map-embed {
@@ -214,6 +216,10 @@ section {
         padding-bottom: 10%;
       }
     }
+  }
+
+  #contact-right-col {
+    margin-top: 2.5em;
   }
 
   .secondary-page {
