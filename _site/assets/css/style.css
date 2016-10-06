@@ -10,8 +10,8 @@
       float: none; }
       .navbar-default .navbar-header .navbar-brand img {
         display: inline-block;
-        padding-top: .8em;
-        max-height: 6.5em;
+        padding: .8em;
+        max-height: 9em;
         width: auto;
         margin-right: auto;
         margin-left: auto; }
@@ -28,14 +28,12 @@
   text-align: center;
   background-color: #FFFFFF; }
 
-.navbar-toggle {
-  background-color: #F2F2F2;
-  padding: 10px 45%;
-  display: none;
-  float: none;
-  margin-right: auto;
-  margin-left: auto;
-  margin-bottom: 10px; }
+.navbar-default .navbar-toggle, .navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+  background: transparent;
+  border-radius: 0;
+  border: 2px solid #0159A1; }
+  .navbar-default .navbar-toggle .icon-bar, .navbar-default .navbar-toggle:focus .icon-bar, .navbar-default .navbar-toggle:hover .icon-bar {
+    background-color: #0159A1; }
 
 @media (max-width: 770px) {
   #logo {

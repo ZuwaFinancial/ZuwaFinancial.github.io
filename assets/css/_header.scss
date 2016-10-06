@@ -13,8 +13,8 @@
       float: none;
       img {
         display: inline-block;
-        padding-top: .8em;
-        max-height: 6.5em;
+        padding: .8em;
+        max-height: 9em;
         width: auto;
         margin-right: auto;
         margin-left: auto;
@@ -39,14 +39,13 @@
   background-color: $white;
 }
 
-.navbar-toggle {
-  background-color: $light-gray;
-  padding: 10px 45%;
-  display: none;
-  float: none;
-  margin-right: auto;
-  margin-left: auto;
-  margin-bottom: 10px;
+.navbar-default .navbar-toggle, .navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+  background: transparent;
+  border-radius: 0;
+  border: 2px solid $logo-dark-blue;
+  .icon-bar {
+    background-color: $logo-dark-blue;
+  }
 }
 
 @media (max-width: 770px) {
