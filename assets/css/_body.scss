@@ -28,9 +28,7 @@ section {
   width: 100%;
 }
 
-#profile-pic {
-  margin: 20px 0;
-}
+
 
 #home {
   min-height: 800px;
@@ -66,6 +64,10 @@ section {
   background-color: $white;
 }
 
+#highlights {
+  background-color: $light-gray;
+}
+
 #about {
   background-color: $light-blue;
   p {
@@ -97,12 +99,8 @@ section {
   }
 }
 
-#highlights {
-  background-color: $light-gray;
-}
-
 #services {
-  background-color: $white;
+  background-color: $light-gray;
   .index-service {
     min-height: 11em;
   }
@@ -162,7 +160,14 @@ section {
   #highlights {
     .col-sm-4 {
       min-height: 12em;
+      padding-top: 2em;
     }
+  }
+  #profile-pic {
+    margin-bottom: 2em;
+  }
+  #cfp-logo {
+    margin-bottom: 1em;
   }
   .secondary-page {
   margin-top: 0;

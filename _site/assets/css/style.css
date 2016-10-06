@@ -125,9 +125,6 @@ section {
 .img-responsive {
   width: 100%; }
 
-#profile-pic {
-  margin: 20px 0; }
-
 #home {
   min-height: 800px;
   background-image: url("/assets/images/field-and-blue-sky.jpg");
@@ -152,6 +149,9 @@ section {
 #intro {
   background-color: #FFFFFF; }
 
+#highlights {
+  background-color: #F4F4F4; }
+
 #about {
   background-color: #E8F0F6; }
   #about p {
@@ -173,11 +173,8 @@ section {
   #certifications #xypn-logo {
     padding-top: .5em; }
 
-#highlights {
-  background-color: #F4F4F4; }
-
 #services {
-  background-color: #FFFFFF; }
+  background-color: #F4F4F4; }
   #services .index-service {
     min-height: 11em; }
 
@@ -222,7 +219,14 @@ section {
     min-height: 100px; }
 
   #highlights .col-sm-4 {
-    min-height: 12em; }
+    min-height: 12em;
+    padding-top: 2em; }
+
+  #profile-pic {
+    margin-bottom: 2em; }
+
+  #cfp-logo {
+    margin-bottom: 1em; }
 
   .secondary-page {
     margin-top: 0; } }
