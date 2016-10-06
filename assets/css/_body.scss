@@ -51,6 +51,11 @@ section {
   #home .section-header {
     margin-top: 14em;
   }
+  #services-top {
+    .section-header {
+      margin-top: 9em;
+    }
+  }
 }
 
 #about-image {
@@ -108,14 +113,16 @@ section {
   background-image: url('/assets/images/tractor-with-hay.jpg');
   background-repeat: no-repeat;
   background-size: cover;
-  margin-top: -3%;
   .section-header {
     color: $logo-dark-blue;
-    margin-top: 7em;
+    margin-top: 4em;
   }
-  .section-body {
-    margin-top: 7em;
-  } 
+}
+
+#services-bottom {
+  p, ul {
+    margin-top: 1em;
+  }
 }
 
 #contact-section {
@@ -156,5 +163,8 @@ section {
     .col-sm-4 {
       min-height: 12em;
     }
+  }
+  .secondary-page {
+  margin-top: 0;
   }
 }
