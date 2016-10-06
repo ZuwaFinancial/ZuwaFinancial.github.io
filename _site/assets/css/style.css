@@ -76,16 +76,18 @@
 #sticky-footer {
   height: 120px; }
 
+i {
+  height: 23px;
+  width: 23px; }
+
 footer {
   background-color: #E8F0F6;
-  margin-left: -4%;
   padding-top: .5em; }
+  footer ul {
+    padding-left: 0; }
   footer li {
     list-style-type: none;
-    padding: 0 .3em;
-    padding-left: .6em; }
-  footer li:first-child {
-    padding-right: none; }
+    padding-top: .2em; }
   footer a {
     color: #0159A1; }
   footer a:hover {
@@ -102,8 +104,8 @@ footer {
     font-size: .7em; }
 
 @media (max-width: 770px) {
-  footer {
-    margin-left: -14%; } }
+  footer ul {
+    margin-left: 1.5em; } }
 * {
   font-family: Gill Sans;
   letter-spacing: .05em; }

@@ -12,17 +12,20 @@
   height: 120px;
 }
 
+i {
+  height: 23px;
+  width: 23px;
+}
+
 footer {
   background-color: $light-blue;
-  margin-left: -4%;
   padding-top: .5em;
+  ul {
+    padding-left: 0;
+  }
   li {
     list-style-type: none;
-    padding: 0 .3em;
-    padding-left: .6em;
-  }
-  li:first-child {
-    padding-right: none;
+    padding-top: .2em;
   }
   a {
     color: $logo-dark-blue;
@@ -43,9 +46,8 @@ footer {
     font-size: .7em;
   }
 }
-
 @media (max-width: 770px) {
-  footer {
-    margin-left: -14%;
+  footer ul {
+    margin-left: 1.5em;
   }
 }
