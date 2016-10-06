@@ -37,7 +37,7 @@ section {
   background-image: url('/assets/images/field-and-blue-sky.jpg');
   background-repeat: no-repeat;
   background-size: cover;
-  margin-top: -15%;
+  margin-top: -5em;
   .section-header {
     color: $logo-dark-blue;
     margin-top: 6em;
@@ -47,7 +47,7 @@ section {
   }
 }
 
-@media (min-width: 800px) {
+@media (min-width: 770px) {
   #home .section-header {
     margin-top: 14em;
   }
