@@ -11,7 +11,8 @@
       .navbar-default .navbar-header .navbar-brand img {
         display: inline-block;
         padding: .8em;
-        max-height: 9em;
+        padding-bottom: 0;
+        max-height: 8em;
         width: auto;
         margin-right: auto;
         margin-left: auto; }
@@ -72,6 +73,7 @@
   height: 120px; }
 
 footer {
+  background-color: #EFF8FF;
   margin-left: -4%;
   padding-top: .5em; }
   footer li {
@@ -175,7 +177,19 @@ section {
 #services {
   background-color: #FFFFFF; }
   #services .index-service {
-    min-height: 14em; }
+    min-height: 11em; }
+
+#services-top {
+  min-height: 30em;
+  background-image: url("/assets/images/tractor-with-hay.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: -3%; }
+  #services-top .section-header {
+    color: #0159A1;
+    margin-top: 7em; }
+  #services-top .section-body {
+    margin-top: 7em; }
 
 #contact-section {
   background-color: #F2F2F2; }
@@ -196,8 +210,7 @@ section {
     height: 100% !important; }
 
 .secondary-page {
-  background-color: #EFF8FF;
-  margin-top: 2em; }
+  margin-top: 4em; }
 
 .center-pills {
   display: inline-block; }

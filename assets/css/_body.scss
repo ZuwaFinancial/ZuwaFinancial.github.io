@@ -99,8 +99,23 @@ section {
 #services {
   background-color: $white;
   .index-service {
-    min-height: 14em;
+    min-height: 11em;
   }
+}
+
+#services-top {
+  min-height: 30em;
+  background-image: url('/assets/images/tractor-with-hay.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: -3%;
+  .section-header {
+    color: $logo-dark-blue;
+    margin-top: 7em;
+  }
+  .section-body {
+    margin-top: 7em;
+  } 
 }
 
 #contact-section {
@@ -126,8 +141,7 @@ section {
 }
 
 .secondary-page {
-  background-color: $light-blue;
-  margin-top: 2em;
+  margin-top: 4em;
 }
 
 .center-pills {
