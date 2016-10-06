@@ -18,14 +18,8 @@ footer {
   padding-top: .5em;
   li {
     list-style-type: none;
-    display: inline;
     padding: 0 .3em;
-    border-right: 2px solid $charcoal;
     padding-left: .6em;
-  }
-  li:last-child {
-    border-right: none;
-    padding-left: none;
   }
   li:first-child {
     padding-right: none;

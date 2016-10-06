@@ -82,13 +82,8 @@ footer {
   padding-top: .5em; }
   footer li {
     list-style-type: none;
-    display: inline;
     padding: 0 .3em;
-    border-right: 2px solid #333333;
     padding-left: .6em; }
-  footer li:last-child {
-    border-right: none;
-    padding-left: none; }
   footer li:first-child {
     padding-right: none; }
   footer a {
@@ -245,8 +240,7 @@ button {
   -webkit-transition: all 0.3s ease-in-out; }
 
 button:hover {
-  background-color: #0159A1;
-  border: 3px solid #0159A1; }
+  background-color: #0159A1; }
 
 .input-text {
   padding: 15px 15px;
