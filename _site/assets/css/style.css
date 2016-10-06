@@ -124,9 +124,6 @@ section {
   min-height: 5em;
   padding: 2em; }
 
-.img-responsive {
-  width: 100%; }
-
 #home {
   min-height: 800px;
   background-image: url("/assets/images/field-and-blue-sky.jpg");
@@ -156,8 +153,10 @@ section {
 
 #about {
   background-color: #E8F0F6; }
-  #about p {
-    margin-top: 4%; }
+  #about h2 {
+    margin-top: 0; }
+  #about img {
+    display: inline-block; }
 
 #about-page img {
   min-height: 150px; }
@@ -236,6 +235,7 @@ section {
     padding-top: 2em; }
 
   #profile-pic {
+    max-width: 300px;
     margin-bottom: 2em; }
 
   #cfp-logo {

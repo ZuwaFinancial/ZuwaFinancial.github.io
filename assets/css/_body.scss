@@ -24,12 +24,6 @@ section {
   padding: 2em;
 }
 
-.img-responsive {
-  width: 100%;
-}
-
-
-
 #home {
   min-height: 800px;
   background-image: url('/assets/images/field-and-blue-sky.jpg');
@@ -70,8 +64,11 @@ section {
 
 #about {
   background-color: $light-blue;
-  p {
-    margin-top: 4%;
+  h2 {
+    margin-top: 0;
+  }
+  img {
+    display: inline-block;
   }
 }
 
@@ -188,6 +185,7 @@ section {
   }
 
   #profile-pic {
+    max-width: 300px;
     margin-bottom: 2em;
   }
 
