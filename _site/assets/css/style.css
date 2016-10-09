@@ -92,6 +92,9 @@ footer {
   footer i {
     height: 23px;
     width: 23px; }
+  footer hr {
+    margin: 1em 0;
+    border: 2px solid #F4F4F4; }
 
 #copyright-info {
   background-color: #111111;

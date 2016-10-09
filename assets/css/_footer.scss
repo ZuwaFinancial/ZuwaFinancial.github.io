@@ -35,6 +35,10 @@ footer {
     height: 23px;
     width: 23px;
   }
+  hr {
+    margin: 1em 0;
+    border: 2px solid $light-gray;
+  }
 }
 
 #copyright-info {
