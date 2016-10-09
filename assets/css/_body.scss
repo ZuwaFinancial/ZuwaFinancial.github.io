@@ -143,13 +143,8 @@ section {
   background-color: $light-gray;
 }
 
-#contact-right-col {
-  #map-header {
-    margin-top: 1.5em;
-  }
-}
-
 #map-embed {
+  margin: 2.2em 0;
   position: relative;
   padding-bottom: 75%; // aspect ratio
   height: 0;

@@ -204,10 +204,8 @@ section {
 #contact-section {
   background-color: #F4F4F4; }
 
-#contact-right-col #map-header {
-  margin-top: 1.5em; }
-
 #map-embed {
+  margin: 2.2em 0;
   position: relative;
   padding-bottom: 75%;
   height: 0;
