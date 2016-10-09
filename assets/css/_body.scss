@@ -171,6 +171,10 @@ section {
   display: inline-block;
 }
 
+a:hover {
+  text-decoration: none;
+}
+
 @media (max-width: 770px) {
 
   #home {

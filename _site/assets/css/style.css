@@ -225,6 +225,9 @@ section {
 .center-pills {
   display: inline-block; }
 
+a:hover {
+  text-decoration: none; }
+
 @media (max-width: 770px) {
   #home {
     min-height: 100px; }
