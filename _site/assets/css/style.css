@@ -123,21 +123,17 @@ section {
   padding: 2em; }
 
 #home {
-  min-height: 800px;
-  background-image: url("/assets/images/field-and-blue-sky.jpg");
+  background-image: url("/assets/images/dallas-night.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  margin-top: -5em; }
+  margin-top: 8.5em; }
   #home .section-header {
     color: #0159A1;
-    margin-top: 6em; }
+    margin-top: -3em; }
   #home .section-body {
     margin-top: 6em; }
 
 @media (min-width: 770px) {
-  #home .section-header {
-    margin-top: 14em; }
-
   #services-top .section-header {
     margin-top: 9em; } }
 #about-image {
@@ -228,7 +224,9 @@ a:hover {
 
 @media (max-width: 770px) {
   #home {
-    min-height: 100px; }
+    margin-top: 6em; }
+    #home .section-header {
+      margin-top: -6em; }
 
   #highlights .col-sm-4 {
     min-height: 12em;
