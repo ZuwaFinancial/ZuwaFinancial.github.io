@@ -15,7 +15,7 @@
 
 
 footer {
-  background-color: $light-blue;
+  background-color: $logo-dark-blue;
   padding-top: .5em;
   ul {
     padding-left: 0;
@@ -25,7 +25,7 @@ footer {
     padding-top: .2em;
   }
   a {
-    color: $logo-dark-blue;
+    color: $white;
   }
   a:hover {
     text-decoration: none;
@@ -37,6 +37,7 @@ footer {
   }
   hr {
     margin: 0;
+    border-color: $logo-dark-blue;
   }
 }
 
