@@ -75,13 +75,6 @@ section {
   }
 }
 
-#about-pictures {
-  background-color: $light-gray;
-  img {
-    margin-top: .4em;
-  }
-}
-
 #certifications {
   background-color: $white;
   img {
@@ -136,10 +129,6 @@ section {
   }
 }
 
-#contact-section {
-  background-color: $light-gray;
-}
-
 #map-embed {
   margin: 2.2em 0;
   position: relative;
@@ -168,7 +157,6 @@ a:hover {
 }
 
 @media (max-width: 770px) {
-
   #home {
     margin-top: 6em;
       .section-header {

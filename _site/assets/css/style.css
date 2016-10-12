@@ -156,11 +156,6 @@ section {
 #about-page img {
   min-height: 150px; }
 
-#about-pictures {
-  background-color: #F4F4F4; }
-  #about-pictures img {
-    margin-top: .4em; }
-
 #certifications {
   background-color: #FFFFFF; }
   #certifications img {
@@ -196,9 +191,6 @@ section {
   padding-top: 0em; }
 #services-bottom .service-description p {
   min-height: 10em; }
-
-#contact-section {
-  background-color: #F4F4F4; }
 
 #map-embed {
   margin: 2.2em 0;
