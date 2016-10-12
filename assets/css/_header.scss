@@ -1,17 +1,38 @@
 @import "variables";
 
 .navbar {
-  height: 140px;
+  border-bottom: 3px solid $logo-dark-blue;
 }
 
 .navbar-default {
   background-color: $white;
-}
-
-.navbar .navbar-nav {
-  display: inline-block;
-  float: none;
-  padding-top: 2.2em;
+  .navbar-header {
+    float: none;
+    padding: 0;
+    .navbar-brand {
+      float: none;
+      img {
+        display: inline-block;
+        padding: .8em;
+        padding-bottom: 0;
+        max-height: 7em;
+        width: auto;
+        margin-right: auto;
+        margin-left: auto;
+      }
+    }
+  }
+  .navbar-nav {
+    display: inline-block;
+    float: none;
+    margin-bottom: -.4em;
+    li {
+      color: $logo-dark-blue;
+      a {
+        color: $logo-dark-blue;
+      }
+    }
+  }
 }
 
 .navbar .navbar-collapse {
@@ -19,51 +40,26 @@
   background-color: $white;
 }
 
-.navbar-toggle {
-  background-color: $light-gray;
-  padding: 10px 45%;
-  display: none;
-  float: none;
-  margin-right: auto;
-  margin-left: auto;
-  margin-bottom: 10px;
-}
-
-#logo {
-  height: auto;
-  width: 340px;
-}
-
-.navbar-brand {
-  min-height: 120px;
-}
-
-body {
-  padding-top: 130px;
+.navbar-default {
+  .navbar-toggle,
+  .navbar-toggle:focus,
+  .navbar-toggle:hover {
+    background: transparent;
+    border-radius: 0;
+    border: 2px solid $logo-dark-blue;
+    .icon-bar {
+      background-color: $logo-dark-blue;
+    }
+  }
 }
 
 @media (max-width: 770px) {
-  .container {
-   max-width: 700px;
-  }
-
   #logo {
-   display: inline-block;
-   height: auto;
-   max-width: 280px;
+   padding-bottom: .8em;
   }
 
-  .navbar-brand {
-   float: none;
-   margin: 0 auto;
-  }
-
-  .navbar {
-   height: 135px;
-  }
-
-  body {
-   padding-top: 130px;
+  .navbar-fixed-top {
+    border-bottom: 4px solid $logo-dark-blue;
   }
 
   .navbar-toggle {
@@ -72,6 +68,14 @@ body {
 
   .navbar .navbar-nav {
    padding-top: 0;
+   li {
+      float: left;
+      width: 47%;
+      padding: 2%;
+   }
+   a {
+    padding: .5em 0;
+   }
   }
 
   .navbar-collapse .collapse {
@@ -80,11 +84,5 @@ body {
 
   .navbar-header {
     float: none;
-  }
-
-  .navbar-nav li {
-    float: left;
-    width: 50%;
-    padding: .5em;
   }
 }

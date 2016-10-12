@@ -1,0 +1,299 @@
+.navbar {
+  border-bottom: 3px solid #07599F; }
+
+.navbar-default {
+  background-color: #FFFFFF; }
+  .navbar-default .navbar-header {
+    float: none;
+    padding: 0; }
+    .navbar-default .navbar-header .navbar-brand {
+      float: none; }
+      .navbar-default .navbar-header .navbar-brand img {
+        display: inline-block;
+        padding: .8em;
+        padding-bottom: 0;
+        max-height: 7em;
+        width: auto;
+        margin-right: auto;
+        margin-left: auto; }
+  .navbar-default .navbar-nav {
+    display: inline-block;
+    float: none;
+    margin-bottom: -.4em; }
+    .navbar-default .navbar-nav li {
+      color: #07599F; }
+      .navbar-default .navbar-nav li a {
+        color: #07599F; }
+
+.navbar .navbar-collapse {
+  text-align: center;
+  background-color: #FFFFFF; }
+
+.navbar-default .navbar-toggle,
+.navbar-default .navbar-toggle:focus,
+.navbar-default .navbar-toggle:hover {
+  background: transparent;
+  border-radius: 0;
+  border: 2px solid #07599F; }
+  .navbar-default .navbar-toggle .icon-bar,
+  .navbar-default .navbar-toggle:focus .icon-bar,
+  .navbar-default .navbar-toggle:hover .icon-bar {
+    background-color: #07599F; }
+
+@media (max-width: 770px) {
+  #logo {
+    padding-bottom: .8em; }
+
+  .navbar-fixed-top {
+    border-bottom: 4px solid #07599F; }
+
+  .navbar-toggle {
+    display: block; }
+
+  .navbar .navbar-nav {
+    padding-top: 0; }
+    .navbar .navbar-nav li {
+      float: left;
+      width: 47%;
+      padding: 2%; }
+    .navbar .navbar-nav a {
+      padding: .5em 0; }
+
+  .navbar-collapse .collapse {
+    display: inline-block; }
+
+  .navbar-header {
+    float: none; } }
+#wrap-for-sticky-footer {
+  min-height: 100%;
+  height: auto;
+  margin: 0 auto -120px;
+  padding: 0 0 120px; }
+
+#sticky-footer {
+  height: 120px; }
+
+footer {
+  background-color: #07599F;
+  padding-top: .5em; }
+  footer ul {
+    padding-left: 0; }
+  footer li {
+    list-style-type: none;
+    padding-top: .2em; }
+  footer a {
+    color: #FFFFFF; }
+  footer a:hover {
+    text-decoration: none;
+    color: #333333; }
+  footer i {
+    height: 23px;
+    width: 23px; }
+  footer hr {
+    margin: 0;
+    border-color: #07599F; }
+
+#copyright-info {
+  background-color: #111111;
+  width: 100%;
+  padding-top: .5em;
+  margin: 0; }
+  #copyright-info p {
+    color: gray;
+    font-size: .7em; }
+
+@media (max-width: 770px) {
+  footer ul {
+    margin-left: 1.5em; }
+  footer hr {
+    margin-bottom: .7em;
+    border: 2px solid #F4F4F4; } }
+* {
+  font-family: Gill Sans;
+  letter-spacing: .05em; }
+
+html, body {
+  height: 100%; }
+
+body {
+  font-size: 2em;
+  overflow-x: hidden; }
+
+.top-content {
+  padding-top: 8em; }
+
+section {
+  min-height: 5em;
+  padding: 2em; }
+
+a:hover {
+  text-decoration: none; }
+
+.secondary-page {
+  margin-top: 4em; }
+
+.center-pills {
+  display: inline-block; }
+
+.nav-pills {
+  margin-top: 1em; }
+  .nav-pills li {
+    padding: 0 .6em; }
+
+#home {
+  background-image: url("/assets/images/dallas-night.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 8.5em; }
+  #home .section-header {
+    color: #07599F;
+    margin-top: -3em; }
+  #home .section-body {
+    margin-top: 6em; }
+
+#intro {
+  background-color: #FFFFFF; }
+
+#highlights {
+  background-color: #F4F4F4; }
+
+#about {
+  background-color: #E8F0F6; }
+  #about h2 {
+    margin-top: 0; }
+  #about img {
+    display: inline-block; }
+
+#certifications {
+  background-color: #FFFFFF; }
+  #certifications img {
+    margin-right: auto;
+    margin-left: auto; }
+  #certifications #xypn-logo {
+    padding-top: .5em; }
+
+#services {
+  background-color: #F4F4F4; }
+
+.service-description h3 {
+  padding-top: 0.5em; }
+.service-description p {
+  min-height: 6.5em;
+  padding-top: 1em; }
+
+#about-page img {
+  min-height: 150px; }
+
+#about-image {
+  padding: 1.5em;
+  padding-top: .75em; }
+
+#services-top {
+  min-height: 30em;
+  background-image: url("/assets/images/texas-ferris-wheel.jpg");
+  background-repeat: no-repeat;
+  background-size: cover; }
+  #services-top .section-header {
+    color: #07599F;
+    margin-top: 10em; }
+
+#services-bottom .service-description h3 {
+  padding-top: 0em; }
+#services-bottom .service-description p {
+  min-height: 10em; }
+
+#map-embed {
+  margin: 2.2em 0;
+  position: relative;
+  padding-bottom: 75%;
+  height: 0;
+  overflow: hidden; }
+  #map-embed iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100% !important;
+    height: 100% !important; }
+
+@media (min-width: 770px) {
+  #services-top .section-header {
+    margin-top: 9em; } }
+@media (max-width: 770px) {
+  #home {
+    margin-top: 6em; }
+    #home .section-header {
+      margin-top: -6em; }
+
+  #highlights .col-sm-4 {
+    min-height: 12em;
+    padding-top: 2em; }
+
+  #profile-pic {
+    margin-bottom: 2em; }
+
+  #cfp-logo {
+    margin-bottom: 1em; }
+
+  .nav-pills li {
+    float: none; }
+
+  .service-description h3 {
+    padding-top: 0em; }
+  .service-description p {
+    min-height: 7.5em;
+    padding-top: .5em; }
+
+  #services-bottom .service-description h3 {
+    padding-top: 0em; }
+  #services-bottom .service-description p {
+    min-height: 20em;
+    padding-top: 10%;
+    padding-bottom: 10%; }
+
+  #contact-right-col {
+    margin-top: 2.5em; }
+
+  .secondary-page {
+    margin-top: 0; } }
+button {
+  background-color: #337AB7;
+  border: none;
+  border-radius: 4px;
+  padding: 2% 3%;
+  margin: 5px 0;
+  color: #FFFFFF;
+  font-size: 1.5em;
+  font-weight: 200;
+  transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out; }
+
+button:hover {
+  background-color: #07599F; }
+
+.input-text {
+  padding: 15px 15px;
+  border: 1px solid #ccc;
+  width: 100%;
+  height: 50px;
+  display: block;
+  border-radius: 4px;
+  font-size: 15px;
+  color: #aaa;
+  font-family: sans-serif;
+  margin: 0;
+  transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out; }
+
+.input-text:focus {
+  border: 1px solid #07599F;
+  outline: 0;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(1, 89, 161, 0.3);
+  -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(1, 89, 161, 0.3);
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(1, 89, 161, 0.3); }
+
+.text-area {
+  height: 165px !important;
+  resize: none;
+  overflow: auto; }

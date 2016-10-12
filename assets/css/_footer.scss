@@ -1,29 +1,40 @@
 @import 'variables';
 
-.footer {
-  background-color: white;
-  padding-top: 2%;
-  width: 90%;
-  margin-left: auto;
-  margin-right: auto;
+#wrap-for-sticky-footer {
+  min-height: 100%;
+  height: auto;
+  margin: 0 auto -120px;
+  padding: 0 0 120px;
+}
+
+#sticky-footer {
+  height: 120px;
 }
 
 footer {
-  padding-left: 3%;
-  p {
+  background-color: $logo-dark-blue;
+  padding-top: .5em;
+  ul {
+    padding-left: 0;
+  }
+  li {
+    list-style-type: none;
+    padding-top: .2em;
+  }
+  a {
+    color: $white;
+  }
+  a:hover {
+    text-decoration: none;
     color: $charcoal;
   }
-  ul {
-    list-style-type: none;
-  }
-  #site-map {
-    padding-left: 25%;
-  }
-  .left-padding {
-    padding-left: 4%;
-  }
   i {
-    color: $logo-light-blue;
+    height: 23px;
+    width: 23px;
+  }
+  hr {
+    margin: 0;
+    border-color: $logo-dark-blue;
   }
 }
 
@@ -34,19 +45,18 @@ footer {
   margin: 0;
   p {
     color: gray;
+    font-size: .7em;
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 770px) {
   footer {
     ul {
-      padding-left: 0;
+      margin-left: 1.5em;
     }
-    #site-map {
-      padding-left: 0;
+    hr {
+      margin-bottom: .7em;
+      border: 2px solid $light-gray;
     }
-    .left-padding {
-      padding-left: 0;
-    }
-  }
+  } 
 }
