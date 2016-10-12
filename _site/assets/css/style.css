@@ -1,5 +1,5 @@
 .navbar {
-  border-bottom: 3px solid #0159A1; }
+  border-bottom: 3px solid #07599F; }
 
 .navbar-default {
   background-color: #FFFFFF; }
@@ -21,9 +21,9 @@
     float: none;
     margin-bottom: -.4em; }
     .navbar-default .navbar-nav li {
-      color: #0159A1; }
+      color: #07599F; }
       .navbar-default .navbar-nav li a {
-        color: #0159A1; }
+        color: #07599F; }
 
 .navbar .navbar-collapse {
   text-align: center;
@@ -34,18 +34,18 @@
 .navbar-default .navbar-toggle:hover {
   background: transparent;
   border-radius: 0;
-  border: 2px solid #0159A1; }
+  border: 2px solid #07599F; }
   .navbar-default .navbar-toggle .icon-bar,
   .navbar-default .navbar-toggle:focus .icon-bar,
   .navbar-default .navbar-toggle:hover .icon-bar {
-    background-color: #0159A1; }
+    background-color: #07599F; }
 
 @media (max-width: 770px) {
   #logo {
     padding-bottom: .8em; }
 
   .navbar-fixed-top {
-    border-bottom: 4px solid #0159A1; }
+    border-bottom: 4px solid #07599F; }
 
   .navbar-toggle {
     display: block; }
@@ -74,7 +74,7 @@
   height: 120px; }
 
 footer {
-  background-color: #0159A1;
+  background-color: #07599F;
   padding-top: .5em; }
   footer ul {
     padding-left: 0; }
@@ -91,7 +91,7 @@ footer {
     width: 23px; }
   footer hr {
     margin: 0;
-    border-color: #0159A1; }
+    border-color: #07599F; }
 
 #copyright-info {
   background-color: #111111;
@@ -146,7 +146,7 @@ a:hover {
   background-size: cover;
   margin-top: 8.5em; }
   #home .section-header {
-    color: #0159A1;
+    color: #07599F;
     margin-top: -3em; }
   #home .section-body {
     margin-top: 6em; }
@@ -194,7 +194,7 @@ a:hover {
   background-repeat: no-repeat;
   background-size: cover; }
   #services-top .section-header {
-    color: #0159A1;
+    color: #07599F;
     margin-top: 10em; }
 
 #services-bottom .service-description h3 {
@@ -269,7 +269,7 @@ button {
   -webkit-transition: all 0.3s ease-in-out; }
 
 button:hover {
-  background-color: #0159A1; }
+  background-color: #07599F; }
 
 .input-text {
   padding: 15px 15px;
@@ -287,7 +287,7 @@ button:hover {
   -webkit-transition: all 0.3s ease-in-out; }
 
 .input-text:focus {
-  border: 1px solid #0159A1;
+  border: 1px solid #07599F;
   outline: 0;
   -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(1, 89, 161, 0.3);
   -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(1, 89, 161, 0.3);
