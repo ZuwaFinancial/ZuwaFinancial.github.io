@@ -40,7 +40,9 @@
   background-color: $white;
 }
 
-.navbar-default .navbar-toggle, .navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+.navbar-default .navbar-toggle,
+.navbar-default .navbar-toggle:focus,
+.navbar-default .navbar-toggle:hover {
   background: transparent;
   border-radius: 0;
   border: 2px solid $logo-dark-blue;

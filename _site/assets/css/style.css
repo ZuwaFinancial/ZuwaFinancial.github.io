@@ -29,11 +29,15 @@
   text-align: center;
   background-color: #FFFFFF; }
 
-.navbar-default .navbar-toggle, .navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+.navbar-default .navbar-toggle,
+.navbar-default .navbar-toggle:focus,
+.navbar-default .navbar-toggle:hover {
   background: transparent;
   border-radius: 0;
   border: 2px solid #0159A1; }
-  .navbar-default .navbar-toggle .icon-bar, .navbar-default .navbar-toggle:focus .icon-bar, .navbar-default .navbar-toggle:hover .icon-bar {
+  .navbar-default .navbar-toggle .icon-bar,
+  .navbar-default .navbar-toggle:focus .icon-bar,
+  .navbar-default .navbar-toggle:hover .icon-bar {
     background-color: #0159A1; }
 
 @media (max-width: 770px) {
@@ -122,6 +126,20 @@ section {
   min-height: 5em;
   padding: 2em; }
 
+a:hover {
+  text-decoration: none; }
+
+.secondary-page {
+  margin-top: 4em; }
+
+.center-pills {
+  display: inline-block; }
+
+.nav-pills {
+  margin-top: 1em; }
+  .nav-pills li {
+    padding: 0 .6em; }
+
 #home {
   background-image: url("/assets/images/dallas-night.jpg");
   background-repeat: no-repeat;
@@ -132,13 +150,6 @@ section {
     margin-top: -3em; }
   #home .section-body {
     margin-top: 6em; }
-
-@media (min-width: 770px) {
-  #services-top .section-header {
-    margin-top: 9em; } }
-#about-image {
-  padding: 1.5em;
-  padding-top: .75em; }
 
 #intro {
   background-color: #FFFFFF; }
@@ -153,9 +164,6 @@ section {
   #about img {
     display: inline-block; }
 
-#about-page img {
-  min-height: 150px; }
-
 #certifications {
   background-color: #FFFFFF; }
   #certifications img {
@@ -167,16 +175,18 @@ section {
 #services {
   background-color: #F4F4F4; }
 
-.nav-pills {
-  margin-top: 1em; }
-  .nav-pills li {
-    padding: 0 .6em; }
-
 .service-description h3 {
   padding-top: 0.5em; }
 .service-description p {
   min-height: 6.5em;
   padding-top: 1em; }
+
+#about-page img {
+  min-height: 150px; }
+
+#about-image {
+  padding: 1.5em;
+  padding-top: .75em; }
 
 #services-top {
   min-height: 30em;
@@ -205,15 +215,9 @@ section {
     width: 100% !important;
     height: 100% !important; }
 
-.secondary-page {
-  margin-top: 4em; }
-
-.center-pills {
-  display: inline-block; }
-
-a:hover {
-  text-decoration: none; }
-
+@media (min-width: 770px) {
+  #services-top .section-header {
+    margin-top: 9em; } }
 @media (max-width: 770px) {
   #home {
     margin-top: 6em; }
