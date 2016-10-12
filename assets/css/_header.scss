@@ -40,14 +40,16 @@
   background-color: $white;
 }
 
-.navbar-default .navbar-toggle,
-.navbar-default .navbar-toggle:focus,
-.navbar-default .navbar-toggle:hover {
-  background: transparent;
-  border-radius: 0;
-  border: 2px solid $logo-dark-blue;
-  .icon-bar {
-    background-color: $logo-dark-blue;
+.navbar-default {
+  .navbar-toggle,
+  .navbar-toggle:focus,
+  .navbar-toggle:hover {
+    background: transparent;
+    border-radius: 0;
+    border: 2px solid $logo-dark-blue;
+    .icon-bar {
+      background-color: $logo-dark-blue;
+    }
   }
 }
 
