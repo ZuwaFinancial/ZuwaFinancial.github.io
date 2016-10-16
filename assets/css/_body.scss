@@ -7,6 +7,10 @@
   letter-spacing: .05em;
 }
 
+hr {
+  border-top: 4px solid $light-blue;
+} 
+
 // needed for sticky footer behavior
 html, body {
   height: 100%
@@ -46,9 +50,22 @@ a:hover {
 
 .nav-pills {
   margin-top: 1em;
-  li {
-    padding: 0 .6em;
-  }
+}
+
+.nav-pills>li.active>a, .nav-pills>li.active>a:focus, .nav-pills>li.active>a:hover {
+  background-color: $logo-dark-blue;
+}
+
+button {
+  background-color: $logo-dark-blue !important;
+}
+
+a {
+  color: $logo-dark-blue;
+}
+
+.nav-pills li.active a {
+  background-color: $logo-dark-blue;
 }
 
 // Index page styling
@@ -101,11 +118,12 @@ a:hover {
 }
 
 .service-description {
+  min-height: 6.5em;
+
   h3 {
     padding-top: .5em
   }
   p {
-    min-height: 6.5em;
     padding-top: 1em;
   }
 }
@@ -141,13 +159,19 @@ a:hover {
 
 #services-bottom {
   .service-description {
-    h3 {
-      padding-top: 0em
-    }
-    p {
-      min-height: 10em;
-    }
+    min-height: 10em;
   }
+}
+
+.schedule-cta {
+  margin-top: 2em;
+}
+
+.service-offerings {
+  margin-top: 1.5em;
+}
+.service-offerings li {
+  float: left;
 }
 
 // Contact page styling
@@ -207,26 +231,8 @@ a:hover {
   }
 
   .service-description {
-    h3 {
-      padding-top: 0em
-    }
-    p {
       min-height: 7.5em;
       padding-top: .5em;
-    }
-  }
-
-  #services-bottom {
-    .service-description {
-      h3 {
-        padding-top: 0em
-      }
-      p {
-        min-height: 20em;
-        padding-top: 10%;
-        padding-bottom: 10%;
-      }
-    }
   }
 
   #contact-right-col {
@@ -237,3 +243,4 @@ a:hover {
   margin-top: 0;
   }
 }
+
