@@ -13,7 +13,6 @@
       float: none;
       img {
         display: inline-block;
-        padding: .8em;
         padding-bottom: 0;
         max-height: 7em;
         width: auto;
@@ -54,10 +53,6 @@
 }
 
 @media (max-width: 770px) {
-  #logo {
-   padding-bottom: .8em;
-  }
-
   .navbar-fixed-top {
     border-bottom: 4px solid $logo-dark-blue;
   }
