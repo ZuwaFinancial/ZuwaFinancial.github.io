@@ -4,19 +4,17 @@
   {% include head.html %}
 
   <body>
-  <div id="wrap-for-sticky-footer">
     {% include header.html %}
 
     {{ content }}
-  </div>
-  <div id="sticky-footer">
-    {% include footer.html %}
-  </div>
-  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-  <script src="/assets/js/vendor/jquery-3.1.0.min.js"></script>
-  <!-- Include all compiled plugins (below), or include individual files as needed -->
-  <script src="/assets/js/vendor/bootstrap.min.js"></script>
-  <script src="/assets/js/smooth_scroll.js"></script>
+    <div id="sticky-footer">
+      {% include footer.html %}
+    </div>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="/assets/js/vendor/jquery-3.1.0.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="/assets/js/vendor/bootstrap.min.js"></script>
+    <script src="/assets/js/smooth_scroll.js"></script>
 
   </body>
 </html> 
