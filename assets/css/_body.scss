@@ -67,12 +67,18 @@ a {
 // Index page styling
 
 #home {
-  background-image: url('/assets/images/dallas-night.jpg');
+  background-image: url('/assets/images/dallas-5.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   margin-top: 8.5em;
   .section-header {
-    color: $logo-dark-blue;
+    h2 {
+      color: $faded-blue;
+      background-color: rgba(255,255,255,.85);
+      border-radius: 5px;
+      padding: .8em;
+      display: inline-block;
+    }
     margin-top: -3em;
   }
   .section-body {
@@ -143,13 +149,18 @@ a {
 // Services page styling
 
 #services-top {
-  min-height: 30em;
-  background-image: url('/assets/images/texas-ferris-wheel.jpg');
+  background-image: url('/assets/images/texas-flag.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   .section-header {
-    color: $logo-dark-blue;
-    margin-top: 10em;
+    h2 {
+      color: $faded-blue;
+      background-color: rgba(255,255,255,.85);
+      border-radius: 5px;
+      padding: .8em;
+      display: inline-block;
+      margin: 3em 0;
+    }
   }
 }
 
@@ -188,14 +199,6 @@ a {
 }
 
 // Mobile responsiveness
-
-@media (min-width: 770px) {
-  #services-top {
-    .section-header {
-      margin-top: 9em;
-    }
-  }
-}
 
 @media (max-width: 770px) {
   #home {
