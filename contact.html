@@ -1,47 +1,74 @@
 ---
 layout: default
-title: Services
+title: Service
 ---
+
 <section class="top-content secondary-page">
   <div class="container">
-    <div class="row text-center">
-      <div class="col-sm-offset-1 col-sm-5">
-        <h2>
-          Reach Out
-        </h2>
-        <p>
-          In consequat dolor sed rhoncus hendrerit.
-        </p>
-        <form method="POST" action="http://formspree.io/EMAILHERE">
-          <input class="input-text" type="text" name="name" placeholder="Your name"><br>
-          <input class="input-text" type="email" name="email" placeholder="Your email"><br>
-          <textarea class="input-text text-area"  name="message" placeholder="Your message"></textarea><br>
-          <button type="submit">Send</button>
-        </form>
-      </div>
-      <div id="contact-right-col" class="col-sm-4 col-sm-offset-1">
+
+      <div class="col-sm-offset-1 col-sm-5 col-xs-12">
+
+        <div class="row text-center">
+          <h2>
+            Reach Out
+          </h2>
+        </div><!-- /row -->
+
+
+          <form method="POST" action="http://formspree.io/EMAILHERE">
+            <input class="input-text" type="text" name="name" placeholder="Your name"><br>
+            <input class="input-text" type="email" name="email" placeholder="Your email"><br>
+            <textarea class="input-text text-area"  name="message" placeholder="Your message"></textarea><br>
+
+            <div class="text-center">
+              <button type="submit">Send</button>
+            </div>
+          </form>
+
+      </div><!-- /left col -->
+
+      <div id="contact-right-col" class="col-sm-5 col-sm-offset-1 col-xs-12">
+
         <h2>
           Correspondence
         </h2>
-        <p>
-          123 American Drive,
-          Rugby, ND 58368
-        </p>
-        <div id="map-embed">
-          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5569203.446696563!2d-103.72679218388694!3d47.033605438706715!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x52dbf5f3524f203f%3A0x8c76483a736f2570!2sRugby%2C+ND+58368!5e0!3m2!1sen!2sus!4v1475652775020" width="600" height="450" frameborder="0" style="border:0" allowfullscreen>
-          </iframe>
-        </div>
-        <p>
-          <a href="tel:5555555555">
-            (555) 555-5555
+
+        <div class="contact-info">
+          <a href="tel:19728911831">
+            <i class="fa fa-phone contact-icon">
+            </i>
+            (972) 891-1831
           </a>
-        </p>
-        <p>
+        </div>
+
+        <div class="contact-info">
           <a href="mailto:mybiz@biz.com">
+            <i class="fa fa-envelope contact-icon">
+            </i>
             mybiz@biz.com
           </a>
-        </p>
-      </div>
-    </div>
-  </div>
+        </div>
+
+        <div class="contact-info street-address">
+
+              <a href="https://goo.gl/maps/gdPbBsMpnH22" target="_blank">
+                <i class="fa fa-map-marker contact-icon">
+                </i>
+
+                5920 Mendocino Drive
+                <div class="address">
+                  Apt 1097 A
+                </div>
+
+                <div class="address">
+                  Dallas, TX 75248
+                </div>
+              </a>
+
+        </div>
+
+      </div><!-- /right col -->
+
+  </div><!-- /container -->
+
 </section>

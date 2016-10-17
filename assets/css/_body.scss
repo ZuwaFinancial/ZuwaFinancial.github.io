@@ -43,9 +43,9 @@ a:hover {
   text-decoration: none;
 }
 
-.secondary-page {
-  margin-top: 2em;
-}
+// .secondary-page {
+//   margin-top: 2em;
+// }
 
 nav.navbar.navbar-default.navbar-top {
   margin-bottom: 0px;
@@ -191,6 +191,24 @@ a {
 
 // Contact page styling
 
+.contact-info {
+	padding: 0em 1em .5em 1em; 
+	width: 100%;
+	line-height: 1.5em;
+	display: block;
+	font-size: 1.5em;
+}
+.contact-icon {
+	width: 35px;
+}
+
+.street-address {
+	font-size: 1.25em;
+}
+.address {
+	margin-left: 45px;
+}
+
 #map-embed {
   margin: 2.2em 0;
   position: relative;
@@ -243,8 +261,10 @@ a {
   }
 
   #contact-right-col {
-    margin-top: 2.5em;
-  }
+		margin-top: 2.5em;
+		text-align: left;
+	}
+
 
   .secondary-page {
   margin-top: 0;
