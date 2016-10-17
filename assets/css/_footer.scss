@@ -38,6 +38,16 @@ footer {
   }
 }
 
+#disclaimer {
+  background-color: $dark-charcoal;
+  width: 100%;
+  padding-top: .5em;
+  margin: 0;
+  p {
+    color: gray;
+    font-size: .4em;
+  }
+}
 #copyright-info {
   background-color: $black;
   width: 100%;
