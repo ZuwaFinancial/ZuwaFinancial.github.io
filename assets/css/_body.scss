@@ -43,13 +43,10 @@ a:hover {
   text-decoration: none;
 }
 
-// .secondary-page {
-//   margin-top: 2em;
-// }
-
 nav.navbar.navbar-default.navbar-top {
   margin-bottom: 0px;
 }
+
 .center-pills {
   display: inline-block;
 }
@@ -222,24 +219,9 @@ a {
 	margin-left: 45px;
 }
 
-#map-embed {
-  margin: 2.2em 0;
-  position: relative;
-  padding-bottom: 75%; // aspect ratio
-  height: 0;
-  overflow: hidden;
-  iframe {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100% !important;
-    height: 100% !important;
-  }
-}
-
 // Mobile responsiveness
 
-@media (max-width: 770px) {
+@media (max-width: 768px) {
   #home {
     margin-top: 6em;
       .section-header {
@@ -278,9 +260,50 @@ a {
 		text-align: left;
 	}
 
-
   .secondary-page {
-  margin-top: 0;
+    margin-top: 0;
+  }
+
+  .contact-info {
+    padding: .2em 0em .5em 0em; 
+    width: 100%;
+    line-height: 1em;
+    display: block;
+    font-size: 1em;
+  }
+  .street-address {
+    font-size: 1em;
+  }
+  .address {
+    margin-left: 25px;
+  }
+
+  .contact-icon {
+    width: 25px;
+  }
+
+}
+
+@media(min-width: 768px) and (max-width: 991px) {
+  body {
+    padding-top: 0px;
+  }
+
+  .contact-icon {
+    width: 15px;
+  }
+  .contact-info {
+    padding: .2em 0em .5em 0em; 
+    width: 100%;
+    line-height: 1em;
+    display: block;
+    font-size: 1em;
+  }
+  .street-address {
+    font-size: .8em;
+  }
+  .address {
+    margin-left: 15px;
   }
 }
 
