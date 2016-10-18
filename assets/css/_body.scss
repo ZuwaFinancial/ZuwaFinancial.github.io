@@ -277,6 +277,10 @@ a {
     width: 25px;
   }
 
+  .service-offerings li {
+    float: left;
+    width: 100%;
+  }
 }
 
 @media(min-width: 768px) and (max-width: 991px) {
