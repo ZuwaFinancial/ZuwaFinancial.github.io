@@ -81,3 +81,9 @@
     float: none;
   }
 }
+
+@media (max-width: 767px) {
+  .navbar-default .navbar-header .navbar-brand img {
+    float: left;
+  }
+}
