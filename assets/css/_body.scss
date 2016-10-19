@@ -21,11 +21,21 @@ body {
   overflow-x: hidden;
 }
 
-.top-content {
-}
 
 .hero-image-cta {
   padding-top: 15em;
+}
+
+.image-width-75-pct {
+  width: 75%; height: auto;
+}
+
+.image-width-60-pct {
+  width: 60%; height: auto;
+}
+
+.image-width-50-pct {
+  width: 50%; height: auto;
 }
 
 section {
