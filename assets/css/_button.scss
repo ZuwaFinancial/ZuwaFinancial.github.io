@@ -1,7 +1,7 @@
 @import "variables";
 
-button {
-  background-color: $logo-dark-blue ;
+.button {
+  background-color: $logo-dark-blue;
   border: none;
   border-radius: 4px;
   padding: 2% 3%;
@@ -14,6 +14,6 @@ button {
   -webkit-transition: all 0.3s ease-in-out;
 }
 
-button:hover {
+.button:hover {
   background-color: $faded-blue;
 }
