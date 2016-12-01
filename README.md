@@ -16,6 +16,7 @@ Hosting for this site is done through Github, which allows free hosting for jeky
 
 Push to the master branch of the Github repo to deploy.
 
-You'll also need to log into [Cloudflare](https://www.cloudflare.com/) to clear the cache.
+You'll also need to clear the cache in the CDN.  This app uses [Cloudflare](https://www.cloudflare.com/)
+to the maximize performance.
 
-Once you're logged in, navigate to the the caching page and purge the cache.
+Log into Cloudflare, navigate to the the caching page and purge the cache.
